@@ -18,10 +18,5 @@ def product_id_extractor(url):
     return re.search(r'dp/(.+)\/', url).group(1)
 
 
-# m = re.search(r'dp/(.+)\/', amazon_url)
-# print(m.group(1))
-
-
-
 # CamelCamelCamel Parser
 
